@@ -1,0 +1,17 @@
+# first initialise condition 
+git init
+
+# Second copy remote link from github means link github with vs code
+git remote add origin https://github.com/manuthakur0909/aise-hi.git
+
+# third add vscode files in github
+git add .
+
+# Fourth commit your files
+git commit -m "Message"
+
+# Fifth After committing push your code 
+git push origin master
+
+# At last you can check your status
+git status
